@@ -19,10 +19,11 @@
 	items-content: center;
 }
 .header_center{
-	width: 200px;
-	height: 100%;
-	flex: 1;
+/*	flex: 1;*/
+	flex-grow: 1;
 	background: red;
+	items-content: center;
+	justify-content: flex-end;
 }
 .header_right{
 	width: 80px;
